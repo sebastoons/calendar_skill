@@ -5,3 +5,37 @@
 @media(max-width:1200px){.page-content{padding:26px 25px}.topbar{padding:0 25px}.hero-illustration{right:2%;transform:scale(.85);transform-origin:right center}.hero-content{max-width:65%}.area-cards{grid-template-columns:repeat(3,minmax(0,1fr))}.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.subjects-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-day{min-height:88px}.day-event{font-size:7px}}
 @media(max-width:900px){.sidebar{transform:translateX(-100%);transition:transform .22s;box-shadow:none}.sidebar.sidebar-open{transform:translateX(0);box-shadow:10px 0 35px #172b451c}.scrim{display:block;position:fixed;inset:0;background:#15203966;z-index:19}.main-area{margin-left:0}.mobile-menu{display:inline-grid}.mobile-close{display:inline-grid;margin-left:auto}.topbar{height:62px;padding:0 20px}.page-content{padding:24px 20px}.app-footer{padding:17px 20px}.dashboard-grid{grid-template-columns:1fr}.hero-illustration{right:0;opacity:.5}.hero-content{max-width:75%}.calendar-layout{grid-template-columns:1fr}.day-panel{display:block}.progress-overview{grid-template-columns:1fr}.unit-layout{grid-template-columns:1fr}.unit-list-panel{order:2}.unit-detail-panel{order:1}.unit-list-panel .unit-list-item{display:none}.unit-list-panel .unit-list-item.selected{display:flex}.unit-list-panel:has(.unit-list-item.selected) .panel-header:after{content:'Selecciona otra unidad desde el listado completo';font-size:9px;color:#98a2b3}}
 @media(max-width:600px){.topbar{padding:0 13px}.breadcrumbs{font-size:10px}.top-actions{gap:8px}.today-pill{display:none}.top-actions .primary-button{padding:9px 10px;font-size:10px}.page-content{padding:20px 13px}.page-heading{align-items:flex-start;flex-direction:column;margin-bottom:18px;gap:12px}.page-heading h1{font-size:26px}.page-heading p{font-size:11px}.hero-banner{padding:22px 19px;min-height:260px}.hero-content{max-width:100%}.hero-banner h2{font-size:25px;max-width:280px}.hero-reason{max-width:290px}.hero-illustration{right:-78px;opacity:.17;transform:scale(.9)}.hero-buttons{gap:7px}.hero-buttons button{font-size:10px;padding:10px}.stats-grid{gap:9px;margin:13px 0}.stat-card{padding:13px}.stat-top{font-size:9px}.stat-icon{width:29px;height:29px}.stat-value{font-size:24px}.stat-detail{font-size:9px;line-height:1.5;min-height:27px}.panel{padding:15px}.dashboard-grid{gap:12px}.recommend-footer{align-items:stretch}.recommend-footer .primary-button{font-size:10px}.area-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.area-card{padding:11px}.area-card>strong{font-size:10px}.area-meta{font-size:8px}.app-footer{padding:16px 13px;flex-direction:column;gap:5px}.subjects-grid{grid-template-columns:1fr;gap:10px}.subject-card{padding:14px}.subject-card h3{min-height:0}.subject-units-preview{gap:6px}.curriculum-tools{flex-direction:column;gap:8px}.filter-box select{flex:1;max-width:none}.curriculum-summary{gap:12px;flex-wrap:wrap}.subject-hero{padding:15px;gap:11px}.subject-hero-icon{width:42px;height:42px}.subject-hero h2{font-size:17px}.subject-hero p{font-size:9px;line-height:1.5}.subject-hero .progress-ring{width:57px;height:57px}.unit-detail-panel h2{font-size:20px}.unit-detail-top{align-items:flex-start;flex-direction:column;gap:7px}.status-options{grid-template-columns:1fr}.unit-actions{display:grid;grid-template-columns:1fr 1fr}.unit-actions .primary-button{grid-column:1/-1;grid-row:1}.unit-actions .secondary-button{font-size:10px}.activity-table-head{display:none}.activity-table-row{grid-template-columns:1fr auto;gap:9px;padding:13px}.table-activity{grid-column:1/-1}.table-date{grid-column:1}.table-actions{grid-column:2;grid-row:2}.activity-table-row>span.status-pill,.activity-table-row>span:not(.status-pill){grid-column:1;grid-row:3}.activity-table-row .table-actions{grid-column:2;grid-row:3}.tabs-row{overflow-x:auto}.calendar-panel{padding:10px}.calendar-toolbar{gap:5px}.month-title{font-size:12px}.calendar-day{min-height:66px;padding:4px 3px}.day-number{width:19px;height:19px;font-size:9px}.day-event{display:none}.day-dots{margin:4px 0;gap:2px}.weekday-grid>div{font-size:8px}.calendar-legend{gap:7px}.calendar-legend span{font-size:7px}.settings-grid{grid-template-columns:1fr}.danger-panel{grid-column:auto}.form-two{grid-template-columns:1fr}.modal{padding:17px}.modal-actions{flex-wrap:wrap}.progress-main{padding:15px}.progress-main h2{font-size:31px}.status-summary-card{padding:10px;column-gap:7px}.status-summary-card>span:last-child{font-size:8px}.progress-subject-name{width:130px}.progress-subject-name strong{font-size:9px}.progress-subject-row{gap:7px}.status-pill{font-size:8px;padding:4px 6px}}
+
+
+/* Guías didácticas y gestión de asignaturas personalizadas */
+.activity-ideas-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:8px 0 15px}
+.activity-idea-card{border:1px solid #e6ebf3;background:#fbfcff;border-radius:11px;padding:14px;min-width:0}
+.idea-number{display:inline-grid;place-items:center;width:25px;height:25px;border-radius:8px;background:#eaf0ff;color:#3977f6;font-size:10px;font-weight:800}
+.activity-idea-card h4{font-size:11px;margin:9px 0 6px;color:#344054}
+.activity-idea-card p,.other-ideas-box li{font-size:10px;line-height:1.7;color:#667085;margin:0}
+.other-ideas-box{background:#f7f9fc;border:1px solid #e8edf4;border-radius:11px;padding:14px;margin:8px 0 16px}
+.other-ideas-box h4{display:flex;align-items:center;gap:7px;margin:0 0 9px;font-size:11px;color:#344054}
+.other-ideas-box h4 svg{color:#8b6ce6}
+.other-ideas-box ul{padding-left:18px;margin:0;display:grid;gap:6px}
+.lesson-toggle-row{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid #dfe8ff;background:#f5f8ff;border-radius:11px;padding:14px;margin:14px 0}
+.lesson-toggle-row>div{min-width:0}
+.lesson-toggle-row strong{display:flex;align-items:center;gap:7px;font-size:11px;color:#344054}
+.lesson-toggle-row strong svg{color:#3977f6;flex-shrink:0}
+.lesson-toggle-row p{font-size:9px;line-height:1.6;color:#7b8798;margin:5px 0 0}
+.lesson-toggle-row button{flex-shrink:0}
+.lesson-guide{border:1px solid #e3e9f2;border-radius:12px;padding:16px;margin:0 0 17px;background:#fff}
+.lesson-guide-intro{background:#f8faff;border-radius:9px;padding:13px;margin-bottom:8px}
+.lesson-guide-intro>span{font-size:9px;font-weight:800;letter-spacing:.7px;color:#3977f6}
+.lesson-guide-intro h3{font:800 16px Manrope,sans-serif;margin:7px 0;color:#263449}
+.lesson-guide-intro p,.lesson-step p,.lesson-materials p{font-size:10px;line-height:1.75;color:#667085;margin:0}
+.lesson-step{padding:12px 2px;border-bottom:1px solid #eef1f6}
+.lesson-step h4{font-size:10px;color:#344054;margin:0 0 6px}
+.lesson-materials{padding:12px;background:#f7f9fc;border-radius:9px;margin:12px 0}
+.lesson-materials strong{font-size:10px;color:#344054;display:block;margin-bottom:5px}
+.lesson-guide>.primary-button{margin-top:3px}
+.subject-card-wrap{display:flex;flex-direction:column;min-width:0}
+.subject-card-wrap .subject-card{width:100%;flex:1}
+.subject-remove-card{align-self:flex-end;display:flex;align-items:center;gap:5px;border:0;background:transparent;color:#8c96a6;padding:8px 3px 0;font-size:9px;font-weight:700}
+.subject-remove-card:hover{color:#d64550}
+.subject-delete-button{margin-top:13px}
+@media(max-width:600px){.activity-ideas-grid{grid-template-columns:1fr}.lesson-toggle-row{align-items:flex-start;flex-direction:column}.lesson-toggle-row button{width:100%;justify-content:center}.lesson-guide{padding:11px}.activity-idea-card{padding:12px}}
